@@ -1,7 +1,7 @@
 ## Detrital Zircon Mixing 
 by Guido Pastore (guidopastore93@gmail.com)
 
-![DZMLogo](logo.png)
+<img src="logo.png" width="48">
 
 ### Online Version:
 https://gprussell.shinyapps.io/DetritalMixing/
