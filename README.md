@@ -2,7 +2,7 @@
 by Guido Pastore (guidopastore93@gmail.com)
 
 <p align="center">
-  <img src="logo.png" width="150">
+  <img src="logo.png" width="200">
 </p>
 
 ### Online Version:
