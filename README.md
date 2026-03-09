@@ -1,7 +1,7 @@
 ## Detrital Zircon Mixing 
 by Guido Pastore (guidopastore93@gmail.com)
 
-#### Online Version:
+### Online Version:
 https://gprussell.shinyapps.io/DetritalMixing/
 
 ### What this app does: 
