@@ -1,5 +1,6 @@
 ## Detrital Zircon Mixing 
 by Guido Pastore (guidopastore93@gmail.com)
+https://gprussell.shinyapps.io/DetritalMixing/
 
 ### What this app does: 
 Estimates the proportional contribution of up to 6 sediment source regions to a detrital sample (the 'sink'), based on U-Pb zircon age distribution similarity.
