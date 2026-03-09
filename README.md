@@ -23,6 +23,8 @@ Upload a CSV (one sample per column, first row = sample name). Select the sink a
 ### Examples
 Download Detrital Zircon dataset from the *examples* folder and test it.
 
+**Dmix:** is a dummy dataset with 30%Permian, 50%Cambro-Ediacaran, 20%Orosirian ages.
+
 **Niger:** Pastore et al., 2023 https://doi.org/10.1029/2023JF007342
 
 **Paraná** Garzanti et al., 2026  https://doi.org/10.1111/sed.70087
