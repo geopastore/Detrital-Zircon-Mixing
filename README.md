@@ -19,7 +19,7 @@ Proportions table (with sink label), CAD plots (KS & WS), downloadable mix vecto
 Upload a CSV (one sample per column, first row = sample name). Select the sink and 2-6 sources, choose a precision, click Run.
 
 ### Examples
-Download Detrital Zircon dataset from the example folder and test it.
+Download Detrital Zircon dataset from the *examples* folder and test it.
 
 **Niger:** Pastore et al., 2023 https://doi.org/10.1029/2023JF007342
 
