@@ -1,9 +1,6 @@
 # ============================================================
 #  DETRITAL ZIRCON MIXING — SHINY APP  v3.2
 #
-#  Folder structure:
-#    detrital_mixing_app.R      <- this file
-#    precompute_proportions.R   <- run once to build props/
 #    props/                     <- pre-computed .rds tables
 #
 #  Dependencies:
@@ -214,7 +211,7 @@ draw_cad <- function(target, best_mix, sources, score, method_lbl,
         cex.main = 0.9)
 }
 
-# ---- KDE plot (manual, bypasses IsoplotR colour limitation) ----------------
+# ---- KDE plot----------------
 draw_kde <- function(target, mix_KS, mix_WS, sources, sink_name, colour_map,
                      bw = "SJ") {
 
@@ -569,13 +566,12 @@ server <- function(input, output, session) {
   })
 
   # ---- Precision UI -----------------------------------------------------------
-  # Default for 2 sources is NOW 1% (not 0.1%)
   output$precision_ui <- renderUI({
     n <- length(input$src_cols)
     if (n < 2) return(helpText("Select at least 2 sources first."))
     if (n == 2) {
       choices  <- c("1%  (~101 rows)" = "1", "0.1%  (~1001 rows, slow)" = "0.1")
-      selected <- "1"            # <-- default is 1%, 0.1% available but not default
+      selected <- "1"           
       note     <- "1% recommended; 0.1% for higher precision."
     } else if (n == 3) {
       choices  <- c("1%  (~5151 rows)" = "1")
